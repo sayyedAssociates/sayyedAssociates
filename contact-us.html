@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Sayyed & Associates</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <script src="./js/tailwind-browser@4.js"></script>
+  <link rel="stylesheet" href="./css/main-styles.css">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+  <link href="./css/fonts.css" rel="stylesheet">
+</head>
+
+<body id="contact-page">
+  <div id="header"></div>
+
+  <!-- Banner -->
+  <div class="contact-us-banner banner">
+    <img class="banner-img" src="./images/walk-way-1.jpg  " alt="" srcset="">
+    <div class="banner-wrap">
+      <div class="banner-title">Contact Us</div>
+      <div class="banner-sub-title">Get Intouch</div>
+    </div>
+  </div>
+
+  <section class="contact-details">
+    <div class="container">
+      <div class="contact-details-wrapper">
+        <div class="contact-details-box">
+          <div class="contact-details-title"><i class="fa fa-phone"></i> Phone</div>
+          <div class="contact-details-sub-title">
+            +919833195321 / +919321937362
+          </div>
+        </div>
+        <div class="contact-details-box">
+          <div class="contact-details-title"><i class="fa-solid fa-envelope-open"></i>Email</div>
+          <div class="contact-details-sub-title">sayyedandassociates786@gmail.com</div>
+        </div>
+        <div class="contact-details-box">
+          <div class="contact-details-title"><i class="fa-solid fa-location-arrow"></i>Location</div>
+          <div class="contact-details-sub-title">Agripada</div>
+        </div>
+        <div class="contact-details-box">
+          <div class="contact-details-title"><i class="fa-solid fa-clock"></i>Time</div>
+          <div class="contact-details-sub-title">Mon - Sat 10:00-17:00</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Consultations Section -->
+  <section class="consultations">
+    <div class="container">
+      <div class="consultation-title">Leave us your info</div>
+      <div class="consultation-sub-title">and we will get back to you.</div>
+      <form method="POST" class="consultations-form">
+        <input type="text" name="fullName" placeholder="Full Name*" class="input-form" required>
+        <input type="text" name="phone" placeholder="Phone*" class="input-form" required>
+        <input type="email" name="email" placeholder="Email*" class="input-form" required>
+
+        <div id="consultDropdown" class="dropdown-container hidden">
+          <button id="selectDropdownButton" type="button" class="select-dropdown-button">
+            <span id="selectedValue" class="selected-value">Preferred Job*</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
+          <div id="selectDropdownContent" class="select-dropdown-content">
+            <a href="#" class="select-option" data-value="intern">Intern</a>
+            <a href="#" class="select-option" data-value="lawyer">Lawyer</a>
+          </div>
+          <!-- ✅ MUST have a name attribute -->
+          <input type="hidden" id="hiddenSelectValue" name="preferredJob" required>
+        </div>
+
+        <textarea name="message" class="input-textarea" placeholder="Message*" rows="3" required></textarea>
+        <button type="submit" class="consultation-submit">Submit Now</button>
+      </form>
+    </div>
+  </section>
+
+  <div id="footer"></div>
+
+  <!-- Swiper JS -->
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="./js/email.min.js"></script>
+  <script src="./js/scripts.js"></script>
+
+</body>
+
+</html>

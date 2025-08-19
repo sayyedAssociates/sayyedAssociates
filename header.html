@@ -1,0 +1,90 @@
+<header class="header-background-transparent">
+  <div class="top-bar">
+    <div class="top-bar-background"></div>
+    <div class="container">
+      <div class="top-bar-wrapper">
+        <div class="contact-info-wrap">
+          <div class="phone">
+            <i class="fa fa-phone"></i>+919833195321 / +919321937362
+          </div>
+          <div style="margin-left: 12px; margin-right: 14px; display: inline;">·</div>
+          <div class="email">
+            <i class="fa-regular fa-envelope-open"></i><a href="mailto:admin@logiscotheme.co">sayyedandassociates786@gmail.com</a>
+          </div>
+          <div style="margin-left: 10px; margin-right: 13px; display: inline;">·</div>
+          <div class="time">
+            <i class="fa-regular fa-clock"></i>Mon - Sat 10:00-17:00
+          </div>
+        </div>
+        <div class="social-wrap">
+          <div class="social-icon-wrap">
+            <a href="https://wa.me/919833195321" target="_blank" class="social-icon" title="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+          <a class="free-consultant-btn" href="./contact-us.html" target="_self"><i class="fa-regular fa-comment"></i>Free Consultant
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="menuWrapper" class="menu-wrapper">
+    <!-- Navigation Menu -->
+    <div class="container">
+      <nav class="navbar">
+        <a href="./index.html" class="logo-wrap">
+          <img src="./images/logo.png" alt="">
+          <div class="logo-text-wrap">
+            <div class="logo-text">
+              Sayyed & Associates
+            </div>
+            <div class="sub-logo-text">
+              Attorney At Law
+            </div>
+          </div>
+        </a>
+        <div class="menu-toggle" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></div>
+        <ul class="nav-links">
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="./about-us.html">About Us</a></li>
+          <li class="dropdown">
+            <a href="./practice.html">Practice Areas</a>
+            <ul class="dropdown-menu">
+              <li><a href="./practice-details.html?id=1">Criminal Law</a></li>
+              <li><a href="./practice-details.html?id=2">Civil Law</a></li>
+              <li><a href="./practice-details.html?id=3">Property Law</a></li>
+              <li><a href="./practice-details.html?id=4">Family Law</a></li>
+              <li><a href="./practice-details.html?id=5">Dispute resolution</a></li>
+              <li><a href="./practice-details.html?id=6">Environmental Law</a></li>
+            </ul>
+          </li>
+          <li><a href="./blogs.html">Blogs</a></li>
+          <li><a href="./careers.html">Careers</a></li>
+          <li><a href="./contact-us.html">Contact Us</a></li>
+        </ul>
+        <div class="nav-links-mob" id="navLinks">
+          <div class="nav-links-close" onclick="toggleMenu()"><i class="fa-solid fa-xmark"></i></div>
+          <ul>
+            <li><a href="./index.html" class="active" onclick="toggleMenu()">Home</a></li>
+            <li><a href="./about-us.html" onclick="toggleMenu()">About Us</a></li>
+            <li class="dropdown">
+              <div class="drop-text-wrap">
+                <a href="./practice.html">Practice Areas</a>
+                <i id="practiceDropdown" onclick="togglePracticeDropdown()" class="fa-solid fa-caret-down"></i>
+              </div>
+              <ul id="practiceDropdownMenu" class="dropdown-menu">
+                <li><a href="./practice-details.html?id=1" onclick="toggleMenu()">Criminal Law</a></li>
+                <li><a href="./practice-details.html?id=2" onclick="toggleMenu()">Civil Law</a></li>
+                <li><a href="./practice-details.html?id=3" onclick="toggleMenu()">Property Law</a></li>
+                <li><a href="./practice-details.html?id=4" onclick="toggleMenu()">Family Law</a></li>
+                <li><a href="./practice-details.html?id=5" onclick="toggleMenu()">Dispute resolution</a></li>
+                <li><a href="./practice-details.html?id=6" onclick="toggleMenu()">Environmental Law</a></li>
+              </ul>
+            </li>
+            <li><a href="./blogs.html" onclick="toggleMenu()">Blogs</a></li>
+            <li><a href="./careers.html" onclick="toggleMenu()">Careers</a></li>
+            <li><a href="./contact-us.html" onclick="toggleMenu()">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
