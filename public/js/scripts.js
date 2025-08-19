@@ -1,6 +1,6 @@
 (function () {
     emailjs.init({
-        publicKey: "uN_OqzWRlP5uhqcGm",
+        publicKey: "cqiMQQ2cIgkaeMjao",
     });
 })();
 
@@ -333,7 +333,7 @@ document.querySelector('.consultations-form')?.addEventListener('submit', functi
     }
 
     // Send email via EmailJS   
-    emailjs.send("service_io10ata", "template_4iypxh6", {
+    emailjs.send("service_95spsiu", "template_cs6fl8n", {
         name: name.value,
         phone: phone.value,
         email: email.value,
